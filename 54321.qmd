@@ -1,0 +1,33 @@
+---
+title: "54321"
+author: "TSENG NHUNDU"
+format: html
+editor: visual
+bibliography: references.bib
+csl: "https://www.zotero.org/styles/apa"
+
+library(ggplot2)
+library(scales)
+library(ggrepel)
+
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(knitr, rmarkdown, papaja)
+
+library(haven)
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(ggrepel)
+df <- read_dta("data/cross_country_data_homicide_migration.dta")
+
+install.packages("ggrepel")
+library(ggrepel)
+
+library(haven)
+pacman::p_load(knitr, rmarkdown, papaja, haven, dplyr, ggplot2, scales, ggrepel)
+
+                                                                                                                                                                                                                                                                                                                                             -                            
+                                                                                                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             --
+
+
